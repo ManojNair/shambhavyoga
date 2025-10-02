@@ -172,7 +172,7 @@ function showNotification(message, type = 'success') {
         position: 'fixed',
         top: '100px',
         right: '20px',
-        backgroundColor: type === 'success' ? '#2c5f2d' : '#dc3545',
+        backgroundColor: type === 'success' ? '#1e6f9f' : '#dc3545',
         color: 'white',
         padding: '1rem 2rem',
         borderRadius: '10px',
@@ -301,9 +301,9 @@ window.addEventListener('load', () => {
 // ==========================================
 // CONSOLE MESSAGE (Optional)
 // ==========================================
-console.log('%cShambhav Yoga', 'color: #2c5f2d; font-size: 24px; font-weight: bold;');
-console.log('%cWebsite by Harsh Vardhan Atreya', 'color: #97c4a1; font-size: 14px;');
-console.log('%cNamaste! 🙏', 'color: #d4a574; font-size: 16px;');
+console.log('%cShambhav Yoga', 'color: #1e6f9f; font-size: 24px; font-weight: bold;');
+console.log('%cWebsite by Harsh Vardhan Atreya', 'color: #7eb8d4; font-size: 14px;');
+console.log('%cNamaste! 🙏', 'color: #f4a261; font-size: 16px;');
 
 // ==========================================
 // ACCESSIBILITY: ESC KEY TO CLOSE MOBILE MENU
